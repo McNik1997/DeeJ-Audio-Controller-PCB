@@ -1448,6 +1448,12 @@
 		)
 	)
 	(junction
+		(at 85.09 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "103066af-f18e-428c-aa83-9eb323eead12")
+	)
+	(junction
 		(at 156.21 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1466,6 +1472,18 @@
 		(uuid "2bbb5bb3-ed9a-489c-8b74-fefc4b857877")
 	)
 	(junction
+		(at 156.21 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e3e03f6-1b91-4c63-b75e-9c9b3a088bbb")
+	)
+	(junction
+		(at 191.77 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48f99989-fa8b-4f9b-ab18-e7c641d571f3")
+	)
+	(junction
 		(at 231.14 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1482,6 +1500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6e0437-a697-42e8-86e8-e379bd310087")
+	)
+	(junction
+		(at 120.65 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69a8cc8f-85bb-4513-9503-6aff97fe4771")
 	)
 	(junction
 		(at 191.77 54.61)
@@ -1514,12 +1538,6 @@
 		(uuid "b96fc8ee-9b29-446b-b61d-30992fb67502")
 	)
 	(junction
-		(at 227.33 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd8e97c5-f147-4a51-be64-77f5a7e90233")
-	)
-	(junction
 		(at 120.65 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1530,6 +1548,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ea4c5e-3632-4332-894c-5f671c0c31f2")
+	)
+	(junction
+		(at 85.09 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9b8b0d8-c15a-410f-b88b-4fc11c0d5829")
 	)
 	(junction
 		(at 195.58 107.95)
@@ -1765,17 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 49.53) (xy 120.65 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43144640-5487-44ea-805a-a9d018111d30")
-	)
-	(wire
-		(pts
-			(xy 120.65 54.61) (xy 85.09 54.61)
+			(xy 85.09 54.61) (xy 120.65 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1785,13 +1799,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 156.21 54.61)
+			(xy 85.09 41.91) (xy 85.09 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49a85b9f-a9ff-4cd9-9e3c-98c13d6d02b9")
+		(uuid "4b1c6c80-94a3-4f17-aec0-577b988eaa89")
 	)
 	(wire
 		(pts
@@ -1812,16 +1826,6 @@
 			(type default)
 		)
 		(uuid "51f257bb-d84b-4897-b6df-a1a30e15202b")
-	)
-	(wire
-		(pts
-			(xy 85.09 49.53) (xy 85.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7b8e4c-02b8-42a4-b182-352a8ed97e63")
 	)
 	(wire
 		(pts
@@ -2015,6 +2019,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 41.91) (xy 227.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc177a3-dc3e-4668-aa08-350badf0b224")
+	)
+	(wire
+		(pts
 			(xy 160.02 107.95) (xy 195.58 107.95)
 		)
 		(stroke
@@ -2045,13 +2059,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 26.67) (xy 120.65 26.67)
+			(xy 67.31 26.67) (xy 67.31 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "896bdbd1-ff8c-4bec-8c05-cb45e2fc1de4")
+		(uuid "8388b8ef-a1ca-451f-9d5f-79734a046496")
+	)
+	(wire
+		(pts
+			(xy 67.31 38.1) (xy 67.31 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ce2d00-b11d-4b9f-ae1d-e730b08d67ea")
 	)
 	(wire
 		(pts
@@ -2072,6 +2096,16 @@
 			(type default)
 		)
 		(uuid "8d6d2a78-379d-43f3-840a-847ac37981e3")
+	)
+	(wire
+		(pts
+			(xy 67.31 41.91) (xy 85.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb30245-423a-49f4-91ea-e97e09ff010d")
 	)
 	(wire
 		(pts
@@ -2145,23 +2179,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 49.53) (xy 227.33 54.61)
+			(xy 85.09 26.67) (xy 120.65 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afcd9a5c-df63-4f5a-a040-fbf1f1ac05bc")
-	)
-	(wire
-		(pts
-			(xy 191.77 49.53) (xy 191.77 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e592a4-e717-49f7-93ac-8414d7b1761a")
+		(uuid "b15dbd54-d86d-4663-924c-f4e18c7d389f")
 	)
 	(wire
 		(pts
@@ -2202,6 +2226,16 @@
 			(type default)
 		)
 		(uuid "cf768798-7ec3-4084-b9c9-9a7092b72710")
+	)
+	(wire
+		(pts
+			(xy 67.31 26.67) (xy 85.09 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71596b3-965a-45bf-a7d2-a46a07a58c61")
 	)
 	(wire
 		(pts
@@ -2265,6 +2299,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4664208-bbf3-4913-aa63-e51765879211")
+	)
+	(wire
+		(pts
+			(xy 120.65 41.91) (xy 156.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54e4b54-293f-4d8c-b476-ae1b56fab26d")
+	)
+	(wire
+		(pts
 			(xy 163.83 20.32) (xy 163.83 34.29)
 		)
 		(stroke
@@ -2272,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "e9cfca94-aa41-41c9-a07f-bbf3216daf18")
+	)
+	(wire
+		(pts
+			(xy 85.09 41.91) (xy 120.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec269982-e9af-4561-8ca4-606875feb990")
 	)
 	(wire
 		(pts
@@ -2394,76 +2458,6 @@
 			(project "Audio-Controller V2.0"
 				(path "/e0bb1415-7b35-431d-b26f-fac74fc84458"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 120.65 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "189dcaa4-dedd-46e3-a26d-cf3101a775ac")
-		(property "Reference" "C2"
-			(at 124.46 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 124.46 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 121.6152 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6077af22-cd07-4ca8-bfc3-93c4f8575674")
-		)
-		(pin "2"
-			(uuid "0857bb30-9af1-4b40-ad68-746b6f101f42")
-		)
-		(instances
-			(project "Audio-Controller V2.0"
-				(path "/e0bb1415-7b35-431d-b26f-fac74fc84458"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2907,16 +2901,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec32")
+			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec33")
 		)
 		(pin "2"
-			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f054")
+			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f055")
 		)
 		(pin "4"
-			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e3")
+			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e4")
 		)
 		(pin "3"
-			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93dd")
+			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93de")
 		)
 		(instances
 			(project "Audio-Controller V2.0"
@@ -2983,16 +2977,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec32")
+			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec34")
 		)
 		(pin "2"
-			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f054")
+			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f056")
 		)
 		(pin "4"
-			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e3")
+			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e5")
 		)
 		(pin "3"
-			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93dd")
+			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93df")
 		)
 		(instances
 			(project "Audio-Controller V2.0"
@@ -3005,7 +2999,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 45.72 0)
+		(at 67.31 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3014,7 +3008,7 @@
 		(fields_autoplaced yes)
 		(uuid "8079d75a-ac0b-4dcf-9fd3-2c242f179793")
 		(property "Reference" "C1"
-			(at 88.9 44.4499 0)
+			(at 71.12 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3017,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 88.9 46.9899 0)
+			(at 71.12 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,8 +3025,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 86.0552 49.53 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 68.2752 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,7 +3035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 45.72 0)
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3044,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 45.72 0)
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,76 +3062,6 @@
 			(project "Audio-Controller V2.0"
 				(path "/e0bb1415-7b35-431d-b26f-fac74fc84458"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 156.21 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88d1196b-8813-465e-a294-f2c429e51209")
-		(property "Reference" "C3"
-			(at 160.02 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 160.02 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 157.1752 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 156.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80d65938-ff72-4057-8b9b-0b0d41c83c56")
-		)
-		(pin "2"
-			(uuid "85809fa1-4dd5-46f2-b0ba-ef11433ba5f7")
-		)
-		(instances
-			(project "Audio-Controller V2.0"
-				(path "/e0bb1415-7b35-431d-b26f-fac74fc84458"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3279,16 +3203,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec32")
+			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec35")
 		)
 		(pin "2"
-			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f054")
+			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f057")
 		)
 		(pin "4"
-			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e3")
+			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e6")
 		)
 		(pin "3"
-			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93dd")
+			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93e0")
 		)
 		(instances
 			(project "Audio-Controller V2.0"
@@ -3455,146 +3379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 227.33 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8e332c0-9710-412a-8060-fc69f2b89253")
-		(property "Reference" "C5"
-			(at 231.14 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 231.14 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 228.2952 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 227.33 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1df2943f-e004-4b4c-8f12-5a37c1946f43")
-		)
-		(pin "2"
-			(uuid "c652ecc3-20b1-4d1c-87c7-09a15fd78130")
-		)
-		(instances
-			(project "Audio-Controller V2.0"
-				(path "/e0bb1415-7b35-431d-b26f-fac74fc84458"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 191.77 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9ca57fb-3759-4ec4-94c7-7adf74ff6f82")
-		(property "Reference" "C4"
-			(at 195.58 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 195.58 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 192.7352 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 191.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f990d800-753a-4aea-b23f-6527240b6c46")
-		)
-		(pin "2"
-			(uuid "79c4d14c-7d97-48fc-a967-673387c72a72")
-		)
-		(instances
-			(project "Audio-Controller V2.0"
-				(path "/e0bb1415-7b35-431d-b26f-fac74fc84458"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Niks_Symbols:B103_Sliding_Potentiometer")
 		(at 90.17 90.17 0)
 		(unit 1)
@@ -3730,16 +3514,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec32")
+			(uuid "a4e40904-8a7b-423b-a4e8-73243a5cec36")
 		)
 		(pin "2"
-			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f054")
+			(uuid "64a751ab-058b-4ac8-8213-62fa1b04f058")
 		)
 		(pin "4"
-			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e3")
+			(uuid "c5c2aa36-da67-41ed-b2a1-1d4ebcf457e7")
 		)
 		(pin "3"
-			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93dd")
+			(uuid "8c978b2c-b628-4c02-82f2-4e08f49f93e1")
 		)
 		(instances
 			(project "Audio-Controller V2.0"

@@ -5,11 +5,11 @@
       "Application": "Pcbnew",
       "Version": "8.0.0"
     },
-    "CreationDate": "2024-07-04T13:53:23+02:00"
+    "CreationDate": "2024-07-15T16:45:47+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Audio-Controller V2.0",
+      "Name": "Audio-Controller V2.1.kicad_pcb",
       "GUID": "41756469-6f2d-4436-9f6e-74726f6c6c65",
       "Revision": "rev?"
     },
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Audio-Controller V2.0-F_Cu.gtl",
+      "Path": "Audio-Controller V2.1.kicad_pcb-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Audio-Controller V2.0-B_Cu.gbl",
+      "Path": "Audio-Controller V2.1.kicad_pcb-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Audio-Controller V2.0-F_Paste.gtp",
+      "Path": "Audio-Controller V2.1.kicad_pcb-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Audio-Controller V2.0-B_Paste.gbp",
+      "Path": "Audio-Controller V2.1.kicad_pcb-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Audio-Controller V2.0-F_Silkscreen.gto",
+      "Path": "Audio-Controller V2.1.kicad_pcb-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Audio-Controller V2.0-B_Silkscreen.gbo",
+      "Path": "Audio-Controller V2.1.kicad_pcb-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Audio-Controller V2.0-F_Mask.gts",
+      "Path": "Audio-Controller V2.1.kicad_pcb-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Audio-Controller V2.0-B_Mask.gbs",
+      "Path": "Audio-Controller V2.1.kicad_pcb-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Audio-Controller V2.0-Edge_Cuts.gm1",
+      "Path": "Audio-Controller V2.1.kicad_pcb-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Audio-Controller V2.0.kicad_pro",
+    "filename": "Audio-Controller V2.1.kicad_pcb.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -468,7 +468,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Audio-Controller V2.0.step",
+      "step": "Audio-Controller V2.1.kicad_pcb.step",
       "svg": "C:/Users/ngrin/OneDrive/KiCad/Audio-Controller V2.0/",
       "vrml": ""
     },
@@ -575,7 +575,7 @@
   "sheets": [
     [
       "e0bb1415-7b35-431d-b26f-fac74fc84458",
-      "Stammblatt"
+      "Root"
     ]
   ],
   "text_variables": {}
