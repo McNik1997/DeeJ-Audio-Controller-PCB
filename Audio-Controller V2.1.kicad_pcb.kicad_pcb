@@ -2907,13 +2907,14 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.85 90)
-			(layer "F.Fab")
+			(at -4.5 0 90)
+			(layer "F.SilkS")
 			(uuid "331d510d-7ade-4ce8-9ad5-ed8c222f4284")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -3362,6 +3363,19 @@
 		(at 55 105 0)
 		(layer "F.SilkS")
 		(uuid "397df3f1-a842-4aef-8204-71f24a0171e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0.1uF"
+		(at 51 111.5 90)
+		(layer "F.SilkS")
+		(uuid "6f8ccd62-f98e-41cc-b22b-67b50d79a956")
 		(effects
 			(font
 				(size 1 1)
